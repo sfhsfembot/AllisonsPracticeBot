@@ -31,6 +31,10 @@ public class  caterpillarIn extends Command {
 
     // Called just before this Command runs the first time
     protected void initialize() {
+    	Robot.caterpillar.caterpillarIn();
+    	//sets up caterpillar to take in totes
+    	//AO 4/27/15
+    	
     }
 
     // Called repeatedly when this Command is scheduled to run

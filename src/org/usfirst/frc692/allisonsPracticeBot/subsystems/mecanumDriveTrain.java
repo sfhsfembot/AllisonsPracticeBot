@@ -68,5 +68,13 @@ public class mecanumDriveTrain extends Subsystem {
     	//robot moves left
     	//AO 4/23/15
     }
+    
+    public void StopDrive () {
+    	mecanumDriveTrain.mecanumDrive_Cartesian(0.0), 0.0, 0.0, 0.0);
+    	//robot stops 
+    	//AO 4/27/15
+    }
+    
+    
 }
 
